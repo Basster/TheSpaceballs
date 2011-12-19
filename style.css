@@ -1,0 +1,151 @@
+body {
+	background-color: #000a0f;
+	background-image: url(background.gif);
+	background-position: center;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+table.stars {
+	background-image: url(background-stars.gif);
+	background-position: center;
+	background-repeat: repeat-x;
+}
+table.content {
+	border-style: solid;
+	border-color: #354c54;
+	border-width: 1px;
+}
+#container {
+	background-image: url(spaceballs-the-game_background.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 800px;
+	height:600px;
+	position: relative;
+}
+#logo {
+	position:  absolute;
+	height: 80px;
+	width: 360px;
+	left: 38px;
+	top: 32px;
+}
+#startbutton {
+	position: absolute;
+	height: 32px;
+	width: 136px;
+	left: 256px;
+	top: 128px;
+}
+#screenshots {
+	position: absolute;
+	height: 177px;
+	width: 92px;
+	left: 298px;
+	top: 246px;
+}
+#controls {
+	position: absolute;
+	height: 108px;
+	width: 321px;
+	left: 457px;
+	top: 458px;
+}
+#text1 {
+	position: absolute;
+	height: 185px;
+	width: 235px;
+	left: 48px;
+	top: 231px;
+}
+* html #text1{ /* Fix IE 6 */
+	top: 244px;
+}
+#text2 {
+	position: absolute;
+	height: 80px;
+	width: 315px;
+	left: 457px;
+	top: 231px;
+}
+* html #text2{ /* Fix IE 6 */
+	top: 244px;
+}
+#text3 {
+	position: absolute;
+	height: 65px;
+	width: 315px;
+	left: 457px;
+	top: 323px;
+}
+* html #text3{ /* Fix IE 6 */
+	top: 336px;
+}
+#text4 {
+	position: absolute;
+	height: 45px;
+	width: 315px;
+	left: 457px;
+	top: 401px;
+}
+* html #text4{ /* Fix IE 6 */
+	top: 414px;
+}
+p {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	color: #FFF;
+	margin-top: -7px;
+}
+* html p{ /* Fix IE 6 */
+	margin-top: -15px;
+}
+h1 {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #59b5cf;
+	font-weight:normal;
+}
+#creators {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #285766;
+	margin-top: 0px;
+	line-height: normal;
+}
+a:link {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #285766;
+}
+a:visited {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: none;
+	color: #285766;
+}
+a:hover {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #285766;
+}
+a:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	text-decoration: underline;
+	color: #285766;
+}
+
+a.download:link, a.download:visited, a.download:hover, a.download:active {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	line-height: 17px;
+	color: #ffffff;
+	margin-top: -7px;
+	text-decoration: underline;
+}
